@@ -1,2 +1,12 @@
-# benediktboeck3.github.io
-WIESO GEHT DES NICHT
+<!DOCTYPE html>
+
+<!-- Demonstrates HTML -->
+
+<html lang="en">
+    <head>
+        <title>hello</title>
+    </head>
+    <body>
+        hello, world
+    </body>
+</html>
