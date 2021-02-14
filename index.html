@@ -2,12 +2,17 @@
 
 <html lang="en">
     <head>
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
         <link href="styles.css" rel="stylesheet">
         <title>MoreFoodPorFavor</title>
+
+
     </head>
     <style>
         .smaller-image {
@@ -19,20 +24,32 @@
         }
 
         .smaller-middle {
-            width: 2.2%;
+            width: 15%;
             border-radius: 2px;
-            right: 5px;
+            position:absolute;
+            left: 71%;
+            bottom: -15%;
+        }
 
+        .smaller-greek {
+            width: 18%;
+            border-radius: 2px;
+            position:absolute;
+            left: 71%;
+            top: 12;
+        }
+
+        a  /* colour of our links */
+        {
+          color: #aa00aa;
+        }
+
+        p {
+          font-family: sans-serif;
+          font-size: 18px;
         }
 
 
-
-
-        .totheleft {
-            position: absolute;
-            left: 10px;
-            top: 130px;
-        }
 
     </style>
 
@@ -41,7 +58,7 @@
 
 
           <div class="jumbotron">
-            <h1>More food por favor!</h1>
+            <h1 style="font-family: 'Quicksand', sans-serif;font-weight: 700;font-size: 48px">More food por favor!</h1>
         </div>
 
         <div class="container">
@@ -50,7 +67,7 @@
 
 
         <header>
-            <h1 style="font-family:biome">Recipes and Food Reviews</h1>
+            <h1 style="font-family:biome;font-size: 48px">Recipes and Food Reviews</h1>
         </header>
 
          <a class="totheleft" href="review.html"> Reviews </a>
@@ -59,31 +76,35 @@
         <a href="esp.html"><img class="smaller-image" src="spain.jpg" alt="Es"> </a>
 
         <h3  >Evaluating food since 1993</h3>
-        <h4>Welcome to the Morefoodporfavor page, our aim is to promote and share tasty recipes from around to world. Further is planned to try and evaluate Restaurants.</h4>
+        <h4>Welcome to the Morefoodporfavor page, our aim is to promote and share tasty recipes from around the world. Further it is planned to review Restaurants.</h4>
 
-        <aside> At this page we striclty against any discrimination, we like all kinds of food!! </aside>
+        <aside> At this page we are striclty against any discrimination, we like all kinds of food!! </aside>
 
-        <p></p>
 
-        <h2 style="color:green"> Guacamole </h2>
+        <p style="color:white">-</p>
+
+
+        <h2 style="color:green;font-family: 'Archivo Black', sans-serif"> Guacamole </h2>
+        <p style="color:green;font-family: 'Quicksand', sans-serif">Easy, delicious, quick and the base for our beloved Taco Tuesday!</p>
+
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         1. Ingredients
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>For four servings</strong>
+    <div id="collapseOne" class="accordion-collapse  show" aria-labelledby="headingOne" >
+      <div style="postion: relative" class="accordion-body">
+        <strong>For four servings:</strong>
         <ul>
             <li>3 <a href="https://www.wikihow.com/Tell-if-an-Avocado-Is-Ripe">ripe</a> avocados</li>
-            <li>lime (or lemon)</li>
+            <li>lime (or lemon)</li><img class="smaller-middle"  src="guacamole.jpg" alt="Feta"/>
             <li>1/2 diced red onion</li>
             <li>2 small tomatoes, preferable Cherry tomatoes</li>
-            <li>1 garlic clove</li>
+            <li>1 garlic glove</li>
             <li>Salt and Pepper</li>
-            <li>Optional(Jalapeños, Cayenne, Cilantro)</li>
+            <li>Optional (Jalapeños, Cayenne, Cilantro)</li>
         </ul>
 
 
@@ -92,16 +113,20 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         2. Directions
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+    <div id="collapseTwo" class="accordion-collapse show"  aria-labelledby="headingTwo" >
       <div class="accordion-body">
-        <strong>Steps</strong>
+        <strong>Steps:</strong>
         <ol>
-            <li>Cut the avocados in half, then hit the seed with the blade. If the blade sticks spin the seed and remove it.</li>
-            <li>Then remove the skin, you can either peel it or use a spoon. Then put the fruit into your bowl</li>
+            <li>Cut the <B>avocados</B> in half, then hit the seed with the blade. If the blade sticks spin the seed and remove it.</li>
+            <li>Then remove the skin and put it into a bowl, you can either peel it or use a spoon.</li>
+            <li>Add the other <B>ingredients</B>, first the <B>tomatoes</B> and <B>onions</B>, then a little bit of <B>lemon juice</B> and the garlic.</B></li>
+            <li>Now stir it, if you want it a <B>little creamy</B> use a <B>hand blender</B>, first try to blend the tomatoes, but be careful and blend not everything completly, you should still see <B>pieces</B> of the avocado. Most prefer a mix between solid and creamy, best find out how you prefer it!</li>
+            <li>Then add <B>sea salt</B> and <B>pepper</B>, stir it and <B>taste it</B>. If it lacks a citrus taste add a little bit more lemon/lime juice, but be carefull not to overdo it. If it lacks taste add more Salte and a little Pepper</li>
+            <li>If you are happy with the taste,<B>you´re ready to enjoy</B>! It is greats with tacos or nachos, but you can also use it for sandwiches and nearly everthing</li>
 
 
         </ol>
@@ -112,22 +137,214 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
         3. Tips
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+    <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingThree" >
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Tips:</strong>
+        <ul>
+          <li>The easiest and quickest way to test if a avocado is ripe is too feel it, when pressing it should yield a little bid</li>
+          <li>If it feels firm it is under-ripe, if you want to use it soon store it next to apple, this way it will ripe faster </li>
+          <li>If it is already ripe and you want to use it the same day store it in the fridge, this way it will no ripen further</li>
+          <li>If you prefer your Guacamole spicy you just need to add Jalapeños and/or Cayenne</li>
+          <li>Tradicionally you add Cilantro to the Guacamole, but since a some people do not like it, I add the leafs separetly to my tacos or dishes</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
     </body>
+
+ <!-- abstand -->
+<p style="color:white">-</p>
+
+
+<h2 class="greekcolor"><b> Greek Salad</b> </h2>
+        <p class="greekbody">Perfect when you are looking for a healty meal or side dish!</p>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        1. Ingredients
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse  show" aria-labelledby="headingFour" >
+      <div style="postion: relative" class="accordion-body">
+        <strong>For two servings:</strong>
+        <ul>
+            <li>150g tomatoes</li>
+            <li>Olives (preferabele kalamatas olives)</li><img class="smaller-greek"  src="greek.jpg" alt="Palta"/>
+            <li>1/2 red onion, sliced in half rings</li>
+            <li>1/2 cucumber</li>
+            <li>70g feta cheese</li>
+            <li>2 tbsp olive oil</li>
+            <li>2 tbsp balsamic vinegar</li>
+            <li>3 tsp oregano</li>
+            <li>2 tsp paprika</l>
+            <li>Salt and pepper</li>
+            <li>Optional (sweet pepper/pointed pepper, corn, kidney beans, tuna, parsley)</li>
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+        2. Directions
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse show"  aria-labelledby="headingFive" >
+      <div class="accordion-body">
+        <strong>Steps:</strong>
+        <ol>
+            <li>Cut the <B>tomatoes</B> and the <b> cucumber</b>into bite-size pieces.</li>
+            <li>Cut the <b>Onions</b> into half rings.</li>
+            <li>You can either cut the olives in half or leave them whole, as you prefer.</li>
+            <li>Now cut the feta in lines and then break them into bite-size pieces with your fingers.</li>
+            <li>Add the spices, the salt and pepper, and the oil and <b>vinegar</b></li>
+            <li>Now mix the ingredients, and try some pieces to check the taste. If you like it´s ready to serve, otherwise add more salt, pepper.</li>
+        </ol>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+        3. Tips
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse show" aria-labelledby="headingSix" >
+      <div class="accordion-body">
+        <strong>Tips:</strong>
+        <ul>
+          <li>1-2 tsp of sugar can be game changer</li>
+          <li>Try to use high quality olive oil and vinegar</li>
+          <li>Breaking the feta is better then cutting it because then it is more porous and better absorb the sauce</li>
+          <li>Vinegar is great at preserving so you can store the leftovers for a few days in your fridge.</li>
+          <li>Since I made this recipe very often I add the Oil and Vinegar more by feel.</li>
+          <li>It is a greek salad but you don't need to use greek olive oil</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+
+
+<p style="color:white">-</p>
+
+
+
+<h2 class="oats" style="font-weight: 500"><b>Overnight Oats</b> </h2>
+        <p class="oats">A great, healthy and delicous breakfast that can you prepare in advance to start your day right!</p>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+        1. Ingredients
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse  show" aria-labelledby="headingSeven" >
+      <div style="postion: relative" class="accordion-body">
+        <strong>For One servings:</strong>
+        <ul>
+            <li>200g oatmeal</li><img class="smaller-greek"  src="oats.jpg" alt="oats"/>
+            <li>1 ripe banana mashed</li>
+            <li>Plant milk or cow milk</li>
+            <li>1 tbsp flaxseed</li>
+            <li>1/2 apple diced</li>
+            <li>3 tsp cinnamon</li>
+            <li>3 tsp cocoa powder</li>
+            <li>1 tbsp peanut butter</li>
+            <li>Optional (berries, kiwifruit, hemp seeds, nuts, chocolate, ginger) </l>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseFive">
+        2. Directions
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse show"  aria-labelledby="headingEight" >
+      <div class="accordion-body">
+        <strong>Steps:</strong>
+        <ol>
+            <li>Mash the <b>banana</b> in your bowl with a fork.</li>
+            <li>Fill in the <b>oatmeal</b>, the seeds and spices and stir well.</li>
+            <li>Then add the <b>milk</b> and leave it in the <b>refrigerator</b> overnight.</li>
+            <li>The next morning add the apple pieces and the peanut butter</li>
+            <li>That's all, enjoy!</li>
+        </ol>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseSix">
+        3. Tips
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse show" aria-labelledby="headingNine" >
+      <div class="accordion-body">
+        <strong>Tips:</strong>
+        <ul>
+          <li>Once you done it a few times just add your ingredients by feeling. No need to measure anything.</li>
+          <li>Once you've mastered the recipe, experiment with different fruits, seeds and nuts to keep it fresh and exciting.</li>
+          <li>If you put it right out the fridge after waking up, it will be less cold when you eat it</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+
+<h6 style="color:white">-</h6>
+
+<p> Change the text size:
+ <select>   <!-- öffnet ein Auswahlmenü mit unterschiedlichen optionen -->
+
+            <option value="x-large">very large</option>
+            <option value="large">large</option>
+            <option selected value="initial">initial</option>
+            <option value="small">small</option>
+            <option value="x-small">very small</option>
+
+  </select>
+</p>
+
+  <script>
+                                                    //change size, event kann auch leer sein
+            document.querySelector('select').addEventListener('change', function(event) {
+                document.querySelector('body').style.fontSize = this.value; //übernehm den value der option
+
+            });
+
+  </script>
+
+
+
+<p> all pictures on this page are from <a style=:hover"text-decoration:underline overline" href="https://search.creativecommons.org/">Creative Commons </a> and can be used and shared!</p>
+
+
 </html>
 
 
 
 
 
-<p> all Pictures on this page are from Creative commons and be used and shared!</p>

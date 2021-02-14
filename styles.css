@@ -81,3 +81,26 @@ tbody tr:nth-of-type(odd) {
     background-color: rgb(179, 208, 255, 0.3)
 }
 
+
+
+.oats{
+    font-family: 'Quicksand', sans-serif;
+    color: #f47362;
+}
+
+
+.totheleft {
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+
+.greekcolor{
+    color: #3EB6FA;
+    font-family: 'Abril Fatface', serif;
+}
+
+.greekbody{
+    color: #3EB6FA;
+    font-family: 'Quicksand', sans-serif;
+}
