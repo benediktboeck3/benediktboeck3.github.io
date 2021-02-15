@@ -95,6 +95,14 @@ tbody tr:nth-of-type(odd) {
     top: 130px;
 }
 
+.totheleftless {
+    position: absolute;
+    width:2%;
+    border-radius:1px;
+    left: 75px;
+    top: 130px;
+}
+
 .greekcolor{
     color: #3EB6FA;
     font-family: 'Abril Fatface', serif;
@@ -103,4 +111,33 @@ tbody tr:nth-of-type(odd) {
 .greekbody{
     color: #3EB6FA;
     font-family: 'Quicksand', sans-serif;
+}
+
+
+.smaller-image {
+    width: 2.2%;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    top: 130px;
+}
+
+
+
+.smaller-greek {
+    width: 18%;
+    border-radius: 2px;
+    position:absolute;
+    left: 71%;
+    top: 12;
+}
+
+a  /* colour of our links */
+{
+    color: #aa00aa;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
 }
