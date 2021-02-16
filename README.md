@@ -1,5 +1,5 @@
 # MoreFoodPorFavor
-#### Video Demo:
+#### Video Demo: <https://youtu.be/vHYMPdjFfJQ>
 #### Description:
 
 Hello everyone!
@@ -19,10 +19,10 @@ If you have questions or improvement suggestions feel free to contact me at bene
 - The start page of my website. You see flags to change the language and links to the review page and my Instagram account. If you scroll down you see the different recipes.
 
 ### ger.html
-- The start page in German.
+- The start page in German. The buildup is identical to the English page.
 
 ### esp.html
-- The start page in Spanish.
+- The start page in Spanish. The buildup is identical to the English page.
 
 ### review.html
 - This will be my review page. Right now there is only a photo of a cat which says "No reviews yet".
